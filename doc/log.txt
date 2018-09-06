@@ -1,0 +1,47 @@
+﻿
+
+# Get Latitude and Longitude on map
+
+# Latitude and Longitude Finder on Map Get Coordinates(https://www.latlong.net/)
+
+# Google 地圖平台 - Geo-location API  |  Google Maps Platform  |  Google Cloud(https://cloud.google.com/maps-platform/)
+	# Overview  |  Maps JavaScript API  |  Google Developers(https://developers.google.com/maps/documentation/javascript/tutorial)
+
+# OpenStreetMap(https://www.openstreetmap.org/)
+
+	OpenStreetMap - Wikipedia(https://en.wikipedia.org/wiki/OpenStreetMap)
+
+# Leaflet - a JavaScript library for interactive maps(https://leafletjs.com/)	
+	Leaflet/Leaflet: JavaScript library for mobile-friendly interactive maps(https://github.com/Leaflet/Leaflet)
+	
+	https://leafletjs.com/reference.html
+	https://leafletjs.com/reference-1.3.4.html
+	
+	https://leafletjs.com/reference-1.3.4.html#layer
+	https://leafletjs.com/reference-1.3.4.html#interactive-layer
+	https://leafletjs.com/reference-1.3.4.html#marker
+	https://leafletjs.com/reference-1.3.4.html#marker-option
+	https://leafletjs.com/reference-1.3.4.html#icon
+	
+	https://leafletjs.com/reference-1.3.4.html#control-layers
+	https://leafletjs.com/reference-1.3.4.html#gridlayer
+	https://leafletjs.com/reference-1.3.4.html#tilelayer
+	
+	https://leafletjs.com/reference-1.3.4.html#layergroup
+
+	#	Layer Groups and Layers Control - Leaflet - a JavaScript library for interactive maps(https://leafletjs.com/examples/layers-control/#layer-groups-and-layers-control)
+	# Markers With Custom Icons - Leaflet - a JavaScript library for interactive maps(https://leafletjs.com/examples/custom-icons/)
+	
+	# LeafletJS Tutorial(https://www.tutorialspoint.com/leafletjs)
+	
+	# Leaflet.EasyButton(http://cliffcloud.github.io/Leaflet.EasyButton/v1/)
+		CliffCloud/Leaflet.EasyButton: leaflet control buttons with icons and callbacks(https://github.com/CliffCloud/Leaflet.EasyButton)
+
+	# Esri Leaflet(http://esri.github.io/esri-leaflet/)
+		Esri/esri-leaflet: A lightweight set of tools for working with ArcGIS services in Leaflet.(https://github.com/Esri/esri-leaflet)
+
+	# javascript - Leaflet: how to add a new and remove an old marker every time the user click on the map? - Geographic Information Systems Stack Exchange(https://gis.stackexchange.com/questions/238414/leaflet-how-to-add-a-new-and-remove-an-old-marker-every-time-the-user-click-on/238419)
+	
+	# marker允許draggable選項的狀況下，在map zoom in/out時，位置不會自行重新定位？
+	
+# Mapbox(https://www.mapbox.com/)
