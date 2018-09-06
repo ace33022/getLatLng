@@ -77,7 +77,7 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 
 			tag = '<div class="row" style="margin-top: 5px; margin-bottom: 10px;">'
 					+ '  <div class="col-md-6" style="margin-top: 5px; margin-bottom: 10px;">'
-					+ '    <div id="' + mapId + '" style="height: 300px;" tabindex="-1"></div>'
+					+ '    <div id="' + mapId + '" style="height: 350px;" tabindex="-1"></div>'
 					+ '  </div>'
 			    + '  <div class="col-md-6" style="margin-top: 5px; margin-bottom: 10px;">'
 					+ '    <form role="form">'
@@ -102,7 +102,7 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 					+ '    <div class="row">'
 					+ '		   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>'
 					+ '      <!-- ToolGroup -->'
-					+ '      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2244483882494685"	data-ad-slot="7390066670"	data-ad-format="auto" data-full-width-responsive="true"></ins>'
+					+ '      <ins class="adsbygoogle" style="display:block; height: 280px;" data-ad-client="ca-pub-2244483882494685"	data-ad-slot="7390066670"	data-ad-format="auto" data-full-width-responsive="true"></ins>'
 					+ '      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>'
 					+ '    </div>'
 					+ '  </div>'
