@@ -1,28 +1,28 @@
 /**
  *
- * Get Latitude and Longitude on map
- *
- * @description
+ * @description Get Latitude and Longitude on map
  *
  * @version 2018/09/06 初始版本。
  *
  * @author ace
  *
- * @see <a href="http://requirejs.org/">RequireJS</a>
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web|Web technology for developers | MDN}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/API|Web APIs | MDN}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/Events|Event reference | MDN}
+ * @see {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript|JavaScript | MDN}
  *
- * @see <a href="https://jquery.com/">jQuery</a>
+ * @see {@link http://requirejs.org/|RequireJS}
  *
- * @see <a href="http://underscorejs.org/">Underscore.js</a>
- * @see <a href="https://github.com/jashkenas/underscore">jashkenas/underscore: JavaScript's utility _ belt</a>
- * @see <a href="http://backbonejs.org/">Backbone.js</a>
- * @see <a href="https://github.com/jashkenas/backbone">jashkenas/backbone: Give your JS App some Backbone with Models, Views, Collections, and Events</a>
- * @see <a href="https://github.com/jashkenas/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites">Tutorials, blog posts and example sites · jashkenas/backbone Wiki</a>
+ * @see {@link https://jquery.com/|jQuery}
  *
- * @see <a href="https://getbootstrap.com/">Bootstrap · The most popular HTML, CSS, and JS library in the world.</a>
+ * @see {@link https://getbootstrap.com/|Bootstrap · The most popular HTML, CSS, and JS library in the world.}
  *
- * @comment
+ * @see {@link http://underscorejs.org/|Underscore.js}
+ * @see {@link https://github.com/jashkenas/underscore|jashkenas/underscore: JavaScript's utility _ belt}
  *
- * @todo
+ * @see {@link http://backbonejs.org/|Backbone.js}
+ * @see {@link https://github.com/jashkenas/backbone|jashkenas/backbone: Give your JS App some Backbone with Models, Views, Collections, and Events}
+ * @see {@link https://github.com/jashkenas/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites|Tutorials, blog posts and example sites · jashkenas/backbone Wiki}
  *
  */
 
@@ -48,6 +48,8 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 				}
 			}
 
+			jQuery(window).on('focus', function(event) { jQuery('#' + inpAddressId).select().focus(); });
+			
 			// 這個寫法只有在轉換瀏覽器的Tab時才有作用，轉換不同程式時則無用！？
 			document.addEventListener('visibilitychange',
 
@@ -59,8 +61,6 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 				false
 			);
 		
-			jQuery(window).on('focus', function(event) { jQuery('#' + inpAddressId).select().focus(); });
-			
 			var inpAddressId = 'inpAddress' + Math.random().toString(36).substr(2, 6);
 			var inpLatId = 'inpLat' + Math.random().toString(36).substr(2, 6);
 			var inpLngId = 'inpLng' + Math.random().toString(36).substr(2, 6);
